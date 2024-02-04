@@ -2,6 +2,7 @@
   "expo": {
     "name": "react-native_jobs",
     "slug": "react-native_jobs",
+    "description": "This is my first react native.",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
