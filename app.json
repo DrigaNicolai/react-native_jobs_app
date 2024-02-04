@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "react-native_jobs",
-    "slug": "react-native_jobs",
+    "slug": "jobs-app",
     "description": "This is my first react native.",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -35,12 +35,25 @@
       [
         "expo-font",
         {
-          "fonts": ["./assets/fonts/DMSans-Bold.ttf", "./assets/fonts/DMSans-Medium.ttf", "./assets/fonts/DMSans-Regular.ttf"]
+          "fonts": [
+            "./assets/fonts/DMSans-Bold.ttf",
+            "./assets/fonts/DMSans-Medium.ttf",
+            "./assets/fonts/DMSans-Regular.ttf"
+          ]
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "aa30599c-b11a-4e1d-a1db-fbb5210bec2d"
+      }
+    },
+    "owner": "whyme7"
   }
 }
